@@ -41,6 +41,17 @@ nav a {
     background-repeat: no-repeat;
     color: whitesmoke;
 }
+
+
+.hero h2 {
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 footer {
     background-color: #011d58fa;
     color: white;
