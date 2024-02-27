@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 
-header {
+.hpheader {
     background-color: #037dbadb;
     color: white;
     padding: 0.1px;
@@ -22,16 +22,16 @@ nav {
 }
 
 nav a {
+    padding-left: 10%;
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-
 
 .hero {
     text-align: center;
     padding: 15%;
     padding-top: 100px;
-    padding-bottom: 300px;
+    padding-bottom: 350px;
 
     background-color: #eeeeee49;
 
@@ -42,7 +42,6 @@ nav a {
     color: whitesmoke;
 }
 
-
 .hero h2 {
     font-size: 40px;
 }
@@ -51,6 +50,7 @@ nav a {
     font-size: 20px;
     font-weight: bold;
 }
+
 
 footer {
     background-color: #011d58fa;
@@ -93,12 +93,24 @@ footer {
     font-size: 15px;
 }
 
-.contact h4 {
+.contact {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.contact h5 {
+    text-align: center;
+}
+
+.intouch h4 {
     margin-top: 75px;
     font-family: 'Lato', sans-serif;
     font-weight: 100;
     text-align: center;
     color: black;
+    text-align: center;
 }
 
 .map {
