@@ -1,0 +1,28 @@
+.service-section {
+    padding: 20px;
+
+}
+
+.services-labe {
+    width: ;
+}
+
+.services {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.card {
+    margin-top: 40px;
+    margin-left: 0px;
+}
+
+.services-label {
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-body {
+    height: 100px;
+}
