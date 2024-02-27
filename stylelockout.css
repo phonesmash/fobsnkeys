@@ -1,0 +1,24 @@
+.logo {
+    text-align: center;
+    background-color: #011d58fa;
+    color: whitesmoke;
+    padding: 30px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+}
+
+.main {
+    background-image: url('bg2.png');
+    padding-top: ;
+    padding-bottom: 300px;
+    color: rgb(255, 255, 255);
+}
+
+.main p {
+    padding-left: 15%;
+    text-align: left;
+    font-size: 100px;
+    font-weight: bold;
+    padding-top: 200px;
+}
