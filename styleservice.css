@@ -8,21 +8,151 @@
 }
 
 .services {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 80px;
+    padding-top: 75px;
 }
 
 .card {
+    border-width: 3px;
     margin-top: 40px;
     margin-left: 0px;
+    border-radius: 10px;
 }
 
 .services-label {
     padding-top: 50px;
-    font-size: 30px;
+
+}
+
+.services-label h3 {
+    font-size: 40px;
     font-weight: bold;
 }
 
-.card-body {
-    height: 100px;
+.services-label p {
+    font-size: 20px;
 }
+
+.card-body {
+    height: 120px;
+}
+
+.bord {
+    border-width: 30px;
+}
+
+.card-body a:link,
+a:visited,
+a:hover,
+a:active {
+    color: black;
+    /* Or any color you prefer */
+    text-decoration: none;
+    /* Removes underline */
+}
+
+.card-title {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card img {
+
+
+    height: 120px;
+    width: 100px;
+    padding-top: 20px;
+
+}
+
+.best-service {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+}
+
+.best-service h1 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 2%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.best-service p {
+    padding-top: 20px;
+    text-align: left;
+    font-size: 17px;
+    font-weight: ;
+    /* padding-left: 2%; */
+    line-height: 2;
+    font-family: Helvetica;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.best-service img {
+    height: 500px;
+    width: 100%;
+    border-radius: 5px;
+    border: 10px solid #dcdcdc;
+    padding: 5%;
+}
+
+.sameday-service {
+    padding-top: 0px;
+    padding-bottom: 50px;
+    /* padding-left: 10%;
+        padding-right: 10%; */
+}
+
+.sameday-service h1 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.sameday-service p {
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    text-align: left;
+    font-size: 17px;
+    font-weight: ;
+    /* padding-left: 2%; */
+    line-height: 2;
+    font-family: Helvetica;
+
+}
+
+.sameday-service img {
+    height: 500px;
+    width: 100%;
+    border-radius: 5px;
+    border: 10px solid #dcdcdc;
+    padding: 5%;
+}
+
+.des {
+    padding-top: 50px;
+}
+
+.desp {
+    padding-bottom: 50px;
+}
+
+/* .card img {
+    height: 75px;
+    width: 75px;
+    padding-top: 50px;
+} */
