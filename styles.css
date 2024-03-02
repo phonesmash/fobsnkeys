@@ -116,4 +116,21 @@ footer {
 .map {
     margin-left: 10%;
     width: 50px;
+
+}
+
+.collapse navbar-collapse {
+    background-color: whitesmoke;
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-color: whitesmoke;
+    border-color: white;
+}
+
+.navbar-toggler {
+    background-color: whitesmoke;
+    border-color: white;
+    color: white;
 }
