@@ -173,7 +173,7 @@ nav a {
 
 .about-img {
     height: 550px;
-    width: 550px;
+    width: 100%;
     object-fit: cover;
     border-radius: 15px;
 }
