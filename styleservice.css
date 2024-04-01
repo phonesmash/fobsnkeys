@@ -97,13 +97,13 @@ a:active {
 
 }
 
-.best-service img {
+/* .best-service img {
     height: 500px;
     width: 100%;
     border-radius: 5px;
     border: 10px solid #dcdcdc;
     padding: 5%;
-}
+} */
 
 .sameday-service {
     padding-top: 0px;
@@ -135,13 +135,13 @@ a:active {
 
 }
 
-.sameday-service img {
+/* .sameday-service img {
     height: 500px;
     width: 100%;
     border-radius: 5px;
     border: 10px solid #dcdcdc;
     padding: 5%;
-}
+} */
 
 .des {
     padding-top: 50px;
@@ -160,4 +160,27 @@ a:active {
 
 .footer {
     margin-top: 50px;
+}
+
+/*img */
+.image-container {
+    width: 400px;
+    /* or any width */
+    height: 500px;
+    /* or any height */
+    border: 0px solid #000;
+    /* Style your border as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* Ensures the image doesn't spill out of the container */
+}
+
+.responsive-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 25px;
+    /* This makes sure the image maintains its aspect ratio */
 }
