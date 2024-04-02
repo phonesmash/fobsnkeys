@@ -34,7 +34,7 @@ nav a {
 
     background-color: #34495e;
 
-    background-image: url('https://github.com/phonesmash/fobmasters/blob/04baae2c35a916714b4201832ffce4bfbcae5368/pexels-lazaro-rodriguez-jr-6565048%20(1).jpg?raw=true');
+    background-image: url('herobg.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -338,4 +338,10 @@ nav a {
 
 .social-icons a:hover {
     color: #f8c536;
+}
+
+.textspec {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
 }

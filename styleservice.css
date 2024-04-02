@@ -47,7 +47,6 @@
 a:visited,
 a:hover,
 a:active {
-    color: black;
     /* Or any color you prefer */
     text-decoration: none;
     /* Removes underline */
