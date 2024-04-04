@@ -300,12 +300,13 @@ nav a {
     background-color: #34495e;
     /* Darker shade of blue */
     color: #ffffff;
-    padding-top: 60px;
+    padding-top: 30px;
     padding-bottom: 20px;
 }
 
 .footer-dark h5 {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    margin-top: 40px;
     font-weight: bold;
     letter-spacing: 0.8px;
 }
