@@ -5,6 +5,14 @@ body {
     padding: 0;
 }
 
+
+@media (max-width: 767px) {
+    .top-banner .btn {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
 .top-banner {
     background-color: #1e3d89;
     color: rgb(4, 108, 145);
