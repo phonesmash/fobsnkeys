@@ -5,34 +5,71 @@ body {
     padding: 0;
 }
 
-.hpheader {
-    background-color: #000000;
-    color: yellow;
-    padding: 0.1px;
+.top-banner {
+    background-color: #1e3d89;
+    color: rgb(4, 108, 145);
     padding-top: 10px;
     text-align: center;
     font-size: 17px;
-    font-weight: ;
+    margin-top: 0px;
+
+}
+
+.btn {
+    background-color: #003f76;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px;
+    letter-spacing: 1;
+
+}
+
+.btn:hover {
+    background-color: #34495e;
+    /* Bootstrap primary blue color on hover */
+    color: white;
+    /* White text color on hover */
+}
+
+.min-width-btn {
+    min-width: 200px;
+    /* Adjust the width as needed */
+}
+
+.fab {
+    margin-left: 5px;
+    padding-top: 8px;
+    color: #000000;
 }
 
 
 nav {
-    background-color: #34495e;
+    background-color: #000000;
+    font-weight: 600;
+    margin-top: 0;
+    color: #070707;
+    ;
 }
 
 nav a {
     padding-left: 10%;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(40, 39, 39);
+    margin-left: 100px;
+    margin-top: 0;
+
 }
 
 .hero {
     text-align: center;
     padding: 15%;
     padding-top: 100px;
-    padding-bottom: 550px;
+    margin-top: 0px;
+    padding-bottom: 250px;
 
-    background-color: #34495e;
+    background-color: #1e3d89;
 
     background-image: url('herobg.jpeg');
     background-size: cover;
@@ -51,11 +88,10 @@ nav a {
 }
 
 
-
 .process {
-    padding-top: 75px;
-    height: 350px;
-    background-color: #34495e;
+    padding-top: 30px;
+    height: 120px;
+    background-color: #1e3d89;
     color: whitesmoke;
     font-family: 'Lato', sans-serif;
     font-weight: 100;
@@ -126,6 +162,8 @@ nav a {
     border-color: white;
     color: white;
 }
+
+
 
 
 /* Contact */
