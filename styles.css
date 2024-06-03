@@ -98,6 +98,7 @@ nav a {
 
 .process {
     padding-top: 30px;
+    padding-bottom: 30px;
     height: 120px;
     background-color: #1e3d89;
     color: whitesmoke;
@@ -108,6 +109,10 @@ nav a {
 
 .p-3 {
     font-size: 22px;
+}
+
+.weoffer {
+    padding-top: 50px;
 }
 
 .reviews {
@@ -391,4 +396,16 @@ nav a {
     font-size: 30px;
     font-weight: bold;
     padding-bottom: 30px;
+}
+
+/* Service Cards */
+
+.service-cards {
+    margin-top: 40px;
+    /* Adjust the margin size to create the desired space */
+}
+
+.ct {
+    margin-bottom: px;
+    margin-top: 20px;
 }
