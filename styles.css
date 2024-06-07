@@ -13,8 +13,30 @@ body {
     }
 }
 
+.email {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 19px;
+    margin-top: 10px;
+    letter-spacing: 0.2;
+    padding-bottom: 10px;
+}
+
+.tel {
+    text-decoration: none;
+    color: white;
+
+}
+
+.tel:hover {
+    text-decoration: none;
+    color: white;
+}
+
 .top-banner {
-    background-color: #1e3d89;
+    background-color: #17398f;
     color: rgb(4, 108, 145);
     padding-top: 10px;
     text-align: center;
@@ -23,15 +45,19 @@ body {
 
 }
 
-.btn {
-    background-color: #003f76;
-    margin-bottom: 10px;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    padding: 10px;
-    letter-spacing: 1;
+.blogo {
+    margin-bottom: 5px;
+}
 
+.btn {
+    background-color: #1e3d89;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    padding: 10px;
+    letter-spacing: 0.2;
+    border: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 .btn:hover {
@@ -58,8 +84,19 @@ nav {
     font-weight: 600;
     margin-top: 0;
     color: #070707;
-    ;
+
 }
+
+.dropdown-menu {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.dropdown-item {
+    padding-left: 0px;
+    margin-left: 20px;
+}
+
 
 nav a {
     padding-left: 10%;
@@ -112,7 +149,7 @@ nav a {
 }
 
 .weoffer {
-    padding-top: 80px;
+    padding-top: 70px;
 }
 
 .reviews {
@@ -406,6 +443,6 @@ nav a {
 }
 
 .ct {
-    margin-bottom: 20px;
+    margin-bottom: px;
     margin-top: 20px;
 }
