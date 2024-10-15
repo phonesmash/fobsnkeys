@@ -90,6 +90,7 @@ nav {
 .dropdown-menu {
     margin-left: 60px;
     margin-right: 60px;
+    max-width: 400px;
 }
 
 .dropdown-item {
@@ -97,6 +98,14 @@ nav {
     margin-left: 20px;
 }
 
+
+  
+
+.dropdown-menu.dropdown-wide {
+    min-width: 600px;
+    max-width: 1000px;
+  }
+  
 
 nav a {
     padding-left: 10%;
@@ -112,7 +121,7 @@ nav a {
     padding: 15%;
     padding-top: 100px;
     margin-top: 0px;
-    padding-bottom: 250px;
+    padding-bottom: 200px;
 
     background-color: #1e3d89;
 
@@ -346,7 +355,7 @@ nav a {
     color: #0056b3;
     /* Professional blue for titles */
     font-weight: 800;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -444,7 +453,7 @@ nav a {
 /* Service Cards */
 
 .service-cards {
-    margin-top: 40px;
+    margin-top: 20px;
     /* Adjust the margin size to create the desired space */
 }
 
@@ -452,3 +461,21 @@ nav a {
     margin-bottom: px;
     margin-top: 20px;
 }
+
+
+
+body {
+    font-family: 'Mukta', sans-serif;
+  }
+h1 {
+    font-family: 'Mukta', sans-serif;
+  }
+
+  p {
+    font-family: 'open sans', serif;
+    font-weight: 700;
+  }
+  
+  
+  
+  
