@@ -183,3 +183,16 @@ a:active {
     border-radius: 25px;
     /* This makes sure the image maintains its aspect ratio */
 }
+
+body {
+    font-family: 'Mukta', sans-serif;
+  }
+h1 {
+    font-family: 'Mukta', sans-serif;
+  }
+
+  p {
+    font-family: 'open sans', serif;
+    font-weight: 700;
+  }
+  
